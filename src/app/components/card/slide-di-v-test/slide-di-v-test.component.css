@@ -1,0 +1,15 @@
+.div-pai{
+
+  width: 10rem;
+  height: 2rem;
+  background-color: antiquewhite;
+  position: relative;
+}
+
+.minhaDiv{
+  position: absolute;
+}
+
+.unselectable {
+  user-select: none;
+}

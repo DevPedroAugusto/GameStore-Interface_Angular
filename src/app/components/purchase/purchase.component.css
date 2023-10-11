@@ -1,0 +1,27 @@
+.purchase-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 1rem;
+
+  cursor: pointer;
+
+  width: 5rem;
+  height: 5rem;
+
+  padding: 1rem;
+
+  background-color: white;
+  border-radius: 100%;
+  transition: 0.5s;
+}
+
+.purchase-container i{
+  font-size: 2.5rem;
+  color: black;
+}
+.purchase-container:hover{
+  scale: 105%;
+}
+

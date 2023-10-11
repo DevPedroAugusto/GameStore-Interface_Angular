@@ -1,0 +1,22 @@
+<div class="card-container">
+  <div class="body-card">
+    <div class="card-text"
+    (mouseenter)="onMouseEnter()"
+    (mouseleave)="onMouseLeave()"
+    (mousedown)="onMouseDown($event)"
+    (mouseup)="onMouseUp()"
+    #mouseTarget
+    >
+      <app-card-label gameLabel="{{gameLabel}}" gameDescription="{{gameDescription}}"></app-card-label>
+      <div class="card-footer">
+        <app-card-pricing gameType="{{gameType}}" gamePrice="{{gamePrice}}" ></app-card-pricing>
+      </div>
+    </div>
+  </div>
+  <div class="card-img">
+    <img class="img"
+    [src]="[gameCover]"
+    alt=""
+    >
+  </div>
+</div>

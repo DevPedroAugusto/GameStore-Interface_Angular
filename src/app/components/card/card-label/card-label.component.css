@@ -1,0 +1,27 @@
+
+.card-label__content{
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.card-label__content h3{
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-align: center;
+  /* color: #65a8c2; */
+  color: #5690a7;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid rgb(185, 185, 185);
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.card-label__content p{
+  font-size: 1rem;
+  color: #000;
+}
+
